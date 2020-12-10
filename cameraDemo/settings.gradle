@@ -1,0 +1,3 @@
+include ':twoapp'
+include ':app'
+rootProject.name = "cameraDemo"

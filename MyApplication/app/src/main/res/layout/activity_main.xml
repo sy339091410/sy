@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+            <ImageView
+                android:src="@drawable/tiger"
+                android:id="@+id/tiger"
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="vertical"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:layout_width="100dp"
+                       android:layout_gravity="center_horizontal"
+                       android:src="@drawable/bowl"
+                       android:layout_height="100dp">
+
+                   </ImageView>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:text="food"
+                       android:layout_gravity="center_horizontal"
+                       android:textSize="20sp"
+                       android:layout_height="wrap_content">
+                   </TextView>
+
+               </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:src="@drawable/castle"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="100dp">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="castle"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:src="@drawable/american"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="100dp">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="american"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5sp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:src="@drawable/game"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="100dp">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="game"
+                        android:textSize="20sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:src="@drawable/temperature"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="100dp">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="temp"
+                        android:textSize="20sp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/squirrel"
+                        android:layout_height="100dp">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="squirrel"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20sp"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/button_hello"
+                android:layout_weight="1"
+                android:text="Hello"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/button_name"
+                android:layout_weight="1"
+                android:text="Hello"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/button_me"
+                android:text="Hello"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
